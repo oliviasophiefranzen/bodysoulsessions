@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Olivia Sophie | Body Soul Sessions | Therapeutic Bodywork Boulder, CO</title>
+  <meta name="description" content="Olivia Sophie, Licensed Massage Therapist and pre-licensed psychotherapist in Boulder, CO. Specializing in Barefoot Massage (Ashiatsu), Temple Lomi Lomi, and Thai bodywork. Naropa University MA." />
+  <meta name="keywords" content="Olivia Sophie, Olivia Sophie massage Boulder, ashiatsu Boulder, lomi lomi Boulder, therapeutic massage Boulder, bodywork Boulder Colorado, somatic massage Boulder, Naropa University, Body Soul Sessions" />
+  <link rel="canonical" href="https://www.bodysoulsessions.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Body Soul Sessions | Olivia Sophie | Boulder, CO" />
+  <meta property="og:description" content="The art of attuned touch and embodied presence. Licensed Massage Therapist & pre-licensed psychotherapist in Boulder, CO." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.bodysoulsessions.com/" />
+
+  <!-- Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Body Soul Sessions",
+    "description": "Therapeutic bodywork and somatic care with Olivia Sophie, Licensed Massage Therapist and pre-licensed psychotherapist in Boulder, CO.",
+    "url": "https://www.bodysoulsessions.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Boulder", "addressRegion": "CO", "addressCountry": "US" },
+    "founder": { "@type": "Person", "name": "Olivia Sophie", "jobTitle": "Licensed Massage Therapist, Pre-licensed Psychotherapist" },
+    "priceRange": "$$"
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav id="nav">
+    <a href="#hero" class="nav-logo">Body Soul Sessions</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#book" class="nav-cta">Book a Session</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-geo" aria-hidden="true">
+      <svg viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+        <defs>
+          <radialGradient id="vignette" cx="50%" cy="50%" r="55%">
+            <stop offset="0%"   stop-color="#1C2B1C" stop-opacity="0.05"/>
+            <stop offset="100%" stop-color="#1C2B1C" stop-opacity="0.88"/>
+          </radialGradient>
+          <radialGradient id="glowCenter" cx="50%" cy="50%" r="30%">
+            <stop offset="0%"   stop-color="rgba(196,162,106,0.28)"/>
+            <stop offset="100%" stop-color="rgba(196,162,106,0)"/>
+          </radialGradient>
+        </defs>
+        <g class="geo-halo" stroke="rgba(196,162,106,0.18)" stroke-width="0.8" fill="none">
+          <circle cx="720" cy="450" r="620"/>
+          <circle cx="720" cy="450" r="540"/>
+          <circle cx="720" cy="450" r="460"/>
+        </g>
+        <g class="geo-seed" stroke="rgba(196,162,106,0.45)" stroke-width="1.2" fill="none">
+          <circle cx="720"  cy="450"  r="260"/>
+          <circle cx="980"  cy="450"  r="260"/>
+          <circle cx="850"  cy="225"  r="260"/>
+          <circle cx="590"  cy="225"  r="260"/>
+          <circle cx="460"  cy="450"  r="260"/>
+          <circle cx="590"  cy="675"  r="260"/>
+          <circle cx="850"  cy="675"  r="260"/>
+        </g>
+        <g class="geo-inner" stroke="rgba(122,145,120,0.5)" stroke-width="0.9" fill="none">
+          <circle cx="720" cy="450" r="130"/>
+          <circle cx="720" cy="450" r="65"/>
+        </g>
+        <g class="geo-seed" stroke="rgba(196,162,106,0.28)" stroke-width="0.8" fill="none">
+          <line x1="980" y1="450" x2="460" y2="450"/>
+          <line x1="850" y1="225" x2="590" y2="675"/>
+          <line x1="590" y1="225" x2="850" y2="675"/>
+        </g>
+        <circle cx="720" cy="450" r="300" fill="url(#glowCenter)"/>
+        <circle cx="720" cy="450" r="3" fill="rgba(196,162,106,0.85)"/>
+        <rect width="1440" height="900" fill="url(#vignette)"/>
+      </svg>
+    </div>
+
+    <div class="hero-inner">
+      <h1 class="hero-name">Body <em>Soul</em> Sessions</h1>
+      <p class="hero-location">Boulder, Colorado</p>
+      <p class="hero-byline">by Olivia Sophie</p>
+      <div class="hero-divider"></div>
+      <p class="hero-tagline">The art of attuned touch<br />and embodied presence</p>
+      <p class="hero-credentials">
+        Lomi Lomi <span>·</span> Ashiatsu <span>·</span> Thai <span>·</span> Integrative
+      </p>
+      <div>
+        <!-- SQUARE BOOKING BUTTON — replace href when Square link is ready -->
+        <a href="https://app.squareup.com/appointments/book/q0tqmeufc4ex4p/LV346SKV7CH1C/start" target="_blank" rel="noopener noreferrer" class="btn-primary">Book a Session</a>
+        <a href="#services" class="btn-secondary">Explore Work</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="about-grid">
+
+      <div class="about-image-wrap">
+        <img
+          src="olivia.jpg"
+          alt="Olivia Sophie — Licensed Massage Therapist and bodywork practitioner in Boulder, CO"
+          class="about-photo"
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+        />
+        <div class="about-image-placeholder" style="display:none;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none"><rect x="4" y="4" width="32" height="32" rx="2" stroke="#7A9178" stroke-width="1.5"/><circle cx="14" cy="15" r="4" stroke="#7A9178" stroke-width="1.5"/><path d="M4 28L13 19L19 25L26 17L36 28" stroke="#7A9178" stroke-width="1.5" stroke-linecap="round"/></svg>
+          Add olivia.jpg to folder
+        </div>
+      </div>
+
+      <div class="about-content">
+        <p class="section-label">About Olivia Sophie</p>
+        <h2 class="section-title">Licensed Massage Therapist<br /><span class="section-title-sub">&amp; pre-licensed psychotherapist</span></h2>
+
+        <p class="section-body">
+          I am a Licensed Massage Therapist and pre-licensed psychotherapist based
+          in Boulder, Colorado, with over a decade of experience in therapeutic bodywork
+          across boutique wellness and luxury spa environments.
+        </p>
+        <p class="section-body">
+          I offer therapeutic bodywork informed by mindfulness-based and somatic
+          counseling approaches. I specialize in supporting deep nervous system
+          restoration and the release of long-held physical and emotional tension.
+        </p>
+        <p class="section-body">
+          In addition to my career as a bodyworker, I hold a master's degree in
+          Buddhist philosophy and contemplative religious studies from Naropa University.
+          I am currently completing graduate training in mindfulness-based transpersonal
+          counseling to become a licensed psychotherapist.
+        </p>
+        <p class="section-body">
+          My approach integrates skilled bodywork with attuned presence, supporting the
+          whole person.
+        </p>
+        <p class="section-body">
+          I work with a small number of clients each month to maintain depth, presence,
+          and quality of care.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CLIENTS COME FOR ===== -->
+  <section id="clients">
+    <div class="clients-inner">
+      <div class="clients-header">
+        <p class="section-label">What Clients Come For</p>
+        <h2 class="section-title">Support for the<br /><em>whole person</em></h2>
+      </div>
+      <ul class="clients-grid">
+        <li class="client-reason">
+          <span class="reason-line"></span>
+          Stress, anxiety, or nervous system overwhelm
+        </li>
+        <li class="client-reason">
+          <span class="reason-line"></span>
+          Burnout and life transitions
+        </li>
+        <li class="client-reason">
+          <span class="reason-line"></span>
+          Chronic tension or pain patterns
+        </li>
+        <li class="client-reason">
+          <span class="reason-line"></span>
+          Athletic recovery and performance support
+        </li>
+        <li class="client-reason">
+          <span class="reason-line"></span>
+          Deep physical relaxation and restorative body nourishment
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services">
+    <div class="services-inner">
+      <div class="services-header">
+        <p class="section-label">Modalities</p>
+        <h2 class="section-title">Offerings &amp; <em>Modalities</em></h2>
+        <p class="services-intro">
+          Each session is thoughtfully crafted to honor the integrity of the modality
+          and the uniqueness of your body. Dedicated modality sessions begin at
+          90 minutes — because some things simply need room to unfold.
+        </p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <p class="service-number">01</p>
+          <h3 class="service-name">Ashiatsu <em>Barefoot Massage</em></h3>
+          <p class="service-desc">
+            A favorite among those who appreciate sustained therapeutic pressure. Certified in
+            DeepFeet Bar Therapy, a specialized style of Ashiatsu, I use the broad, natural
+            contour of my feet to deliver deep, controlled pressure that accesses layers of
+            muscle and fascia while remaining comfortable and precise. The broad surface of
+            the foot distributes pressure comfortably across large muscle groups, while the
+            heel and specific points of the foot allow for precise trigger point work —
+            especially effective in the hips and glutes where deeper access makes all the
+            difference. The result is profoundly deep work that never feels harsh, supporting
+            slow, intentional release of chronic tension patterns.
+          </p>
+          <p class="service-desc" style="margin-top:14px;">
+            I use warm shea butter throughout for fluid myofascial work, weave in passive
+            stretching to open the hips and lengthen the spine, and close every session with
+            a signature hot towel treatment — warming the neck for traction and finishing
+            with a warm foot wrap. Aromatherapy available upon request at no extra charge.
+          </p>
+          <ul class="service-effective">
+            <li>Deep tissue and myofascial release</li>
+            <li>Chronic tension and trigger points</li>
+            <li>Athletic recovery</li>
+            <li>Structural muscle patterns</li>
+          </ul>
+          <p class="service-tag" style="margin-top:20px; margin-bottom:0;">Deep. Grounding. Releasing.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-number">02</p>
+          <h3 class="service-name">Traditional Thai <em>Massage</em></h3>
+          <p class="service-desc">
+            Ancient, precise, and unlike anything on a table. Traditional Thai Bodywork is
+            performed fully clothed on a cushioned Thai mat — no oil, no draping, just skilled
+            hands, rhythmic compression, and deep assisted stretching guided by the body's
+            natural range of motion. Working along the sen energy lines, this practice releases
+            blockages, restores flow, and leaves you feeling simultaneously unwound and
+            energized. Loose Thai fisherman pants are provided for your comfort.
+          </p>
+          <p class="service-desc service-callout" style="margin-top:18px;">
+            <strong style="color:rgba(255,255,255,0.7); font-weight:500;">✦ Therasage TheraPro Mat — Available Upon Request</strong><br />
+            A professional-grade therapeutic healing mat combining infrared heat, PEMF therapy,
+            red light, and the grounding energy of amethyst, jade, black tourmaline, and
+            paramagnetic earth materials to deeply calm the nervous system and prepare the body
+            for therapeutic work. Think biomat — but more advanced.<br />
+            <em style="color:rgba(255,255,255,0.35); font-size:0.88em;">TheraPro Mat and aromatherapy available upon request at no extra charge.</em>
+          </p>
+          <ul class="service-effective">
+            <li>Flexibility and mobility</li>
+            <li>Energy line work and nervous system reset</li>
+            <li>Clothes-on healing experience</li>
+            <li>Chronic tension and postural patterns</li>
+          </ul>
+          <p class="service-tag" style="margin-top:20px; margin-bottom:0;">Rhythmic. Ancient. Revitalizing.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-number">03</p>
+          <h3 class="service-name">Lomi Lomi <em>Massage</em></h3>
+          <p class="service-desc">
+            This is not just a massage — it is a ritual. Rooted in Hawaiian healing tradition,
+            this Temple Style Lomi Lomi session begins with a pule, a sacred prayer of intention,
+            and unfolds through long, continuous, full-body strokes using forearms, elbows, and
+            hands — moving like waves, working with the breath, dissolving tension held not just
+            in the muscles but in the nervous system itself.
+          </p>
+          <p class="service-desc" style="margin-top:14px;">
+            Warm coconut oil is used throughout, nourishing the skin while allowing the work to
+            move freely and without interruption. Hot oil scalp massage, facial massage, and
+            abdominal work are traditional elements of this ceremony — I check in with you
+            beforehand so the session feels completely comfortable and personal. A hot towel
+            neck treatment and warm foot wrap close every session. Aromatherapy available upon
+            request at no extra charge.
+          </p>
+          <ul class="service-effective">
+            <li>Stress relief and nervous system regulation</li>
+            <li>Deep restorative bodywork</li>
+            <li>Whole-body integration</li>
+            <li>Ceremonial, intentional healing experience</li>
+          </ul>
+          <p class="service-tag" style="margin-top:20px; margin-bottom:0;">Fluid. Ceremonial. Rejuvenating.</p>
+        </div>
+
+        <div class="service-card">
+          <p class="service-number">04</p>
+          <h3 class="service-name">Integrative Custom <em>Massage</em></h3>
+          <p class="service-desc">
+            Not sure where to start — or simply want it all? Custom Blend is a signature
+            mixed-modality session drawing intuitively from a full toolkit of global techniques.
+            Your therapist reads your body and weaves together exactly what you need that day —
+            releasing tension, quieting the nervous system, and guiding you into deep
+            restoration. No two sessions are alike.
+          </p>
+          <p class="service-desc" style="margin-top:14px;">
+            The 60-minute session is perfect for first-timers curious about the work, or for
+            those who want a focused session targeting a specific area — head, neck, and
+            shoulders being a favorite. Aromatherapy available upon request at no extra charge.
+          </p>
+          <ul class="service-effective">
+            <li>Custom therapeutic needs</li>
+            <li>Multi-modality sessions</li>
+            <li>First-time sessions</li>
+            <li>Targeted area work</li>
+          </ul>
+          <p class="service-tag" style="margin-top:20px; margin-bottom:0;">Intuitive. Personal. Restorative.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PHILOSOPHY ===== -->
+  <section id="philosophy">
+    <div class="philosophy-inner">
+      <p class="section-label">Philosophy</p>
+      <h2 class="section-title">The body as a<br /><em>living process</em></h2>
+
+      <div class="sacred-divider">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <circle cx="9" cy="9" r="8" stroke="rgba(196,162,106,0.7)" stroke-width="0.8"/>
+          <circle cx="9" cy="9" r="4" stroke="rgba(196,162,106,0.7)" stroke-width="0.8"/>
+          <circle cx="9" cy="9" r="1.2" fill="rgba(196,162,106,0.8)"/>
+        </svg>
+      </div>
+
+      <blockquote class="philosophy-quote">
+        "Healing is supported when the body is met<br />
+        with attunement, presence,<br />
+        and skilled therapeutic touch."
+      </blockquote>
+
+      <p class="philosophy-body">
+        I view the body as a living process that holds experience, memory, and the
+        capacity for change. Rather than forcing release, I work in collaboration
+        with the nervous system — allowing ease and unwinding to unfold at a pace
+        the body can integrate. This work honors the relationship between body,
+        emotion, and lived experience.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimonials">
+    <div class="testimonials-inner">
+      <div class="testimonials-header">
+        <p class="section-label">Client Reviews</p>
+        <h2 class="section-title">What clients<br /><em>are saying</em></h2>
+      </div>
+
+      <div class="testimonials-carousel" role="region" aria-label="Client testimonials">
+        <button class="carousel-btn carousel-prev" id="carouselPrev" aria-label="Previous">&#8249;</button>
+        <div class="carousel-track-wrap">
+          <div class="carousel-track" id="testimonialTrack">
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "Olivia is a talented healer with a gift for intuitive touch. She skillfully
+                uses her whole body, not just her hands, to apply the right pressure in the
+                precise places it's needed most. I left feeling better than I have in a long
+                time. If you're seeking more than a simple relaxation massage, I highly
+                recommend her work. She is truly exceptional at what she does."
+              </p>
+              <footer class="testimonial-author">— Khoa P.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "My session with Olivia was deeply healing. Her hands communicated with my
+                body in a way that allowed my nervous system to fully relax and release stored
+                tension. I felt safe and supported as deeper layers surfaced, and the entire
+                experience was nurturing and restorative. I'm so grateful and look forward to
+                future sessions."
+              </p>
+              <footer class="testimonial-author">— Malcolm W.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "I had my second Lomi Lomi session with Olivia today and it was exceptional.
+                As a massage therapist for well over a decade, I'm very particular about the
+                bodywork I receive, and it's rare for me to return for a second session —
+                especially with someone new. Olivia offers a beautifully connected, nurturing
+                touch while also providing truly therapeutic work. She has a unique ability to
+                address specific muscular needs while creating a deeply relaxing,
+                nervous-system-reset experience — something I've been searching for many
+                years. Her presence is grounding, her touch is intentional and fluid, and you
+                can feel how connected she is to her craft."
+              </p>
+              <footer class="testimonial-author">— Taryn P.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "I've had several sessions of Ashiatsu massage with Olivia and always left in
+                better shape than I arrived. She is very intuitive and finds aches and knots
+                that I had forgotten about. I highly recommend her and will definitely be
+                going back!"
+              </p>
+              <footer class="testimonial-author">— Cris E.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "Olivia Sophie is one of the most extraordinarily skilled bodywork
+                practitioners I have ever encountered. The intelligence and warmth in her
+                hands is exceptional as is her ability to find and release tension in the
+                body. Olivia practices at an elite level and anyone who works with her should
+                consider themselves fortunate to have found such a hidden treasure."
+              </p>
+              <footer class="testimonial-author">— Gary S.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "I have received several incredible sessions from Olivia, and I would
+                thoroughly recommend her to anyone seeking a skilled and deeply caring
+                therapist. I am also a bodyworker and have had much bodywork over the years,
+                and her sessions are truly some of the most fluid, thorough, relaxing and
+                attuned sessions I've ever had the pleasure of receiving. Her pressure is
+                perfect the entire time. My sessions with her are both deeply relaxing and
+                effective at remediating my areas of tension. Olivia's touch is infused with
+                intention, presence, rhythmic fluidity, and deep nourishment. You will
+                definitely not regret a session with her!"
+              </p>
+              <footer class="testimonial-author">— Kinsey A.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "I am an active Mountain Biker and Motorcycle rider with an occasional Rugby
+                relapse so I need bodywork on a regular basis. Thankfully I found Olivia
+                Sophie. She blends Thai and Ashiatsu along with deep pressure and stretching.
+                I leave feeling refreshed, renewed and ready to take on the next adventure.
+                Highly recommend!"
+              </p>
+              <footer class="testimonial-author">— Chris C.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "I just received the most transformative and magical Lomi Lomi massage from
+                Olivia! She is incredibly skilled. Her touch is so nurturing and connected.
+                Exactly what I need on a regular basis. I've been a massage therapist for
+                years and am very sensitive to quality of touch and that was one of the best
+                massages I've ever received."
+              </p>
+              <footer class="testimonial-author">— Andrea M.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "Olivia is an incredible massage therapist and her Ashiatsu was flawless —
+                truly therapeutic and healing. I will be back for sure."
+              </p>
+              <footer class="testimonial-author">— Tony T.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "As a hairstylist, I spend a lot of time on my feet working, and my body can
+                get pretty sore after a long day. Olivia is exceptionally skilled in releasing
+                the muscle aches and tension that can build up in my body. Absolutely some of
+                the best body work I have ever experienced, and I've had a lot of people work
+                on me throughout the years. She uses just the right amount of pressure, and
+                knows exactly where to use it. I love that I can depend on Olivia to get my
+                body back to feeling its best."
+              </p>
+              <footer class="testimonial-author">— Molly G.</footer>
+            </blockquote>
+
+            <blockquote class="testimonial-card testimonial-featured">
+              <p class="testimonial-text">
+                "Olivia's massages are profound experiences. I entered a deep trance state
+                during mine. They are for people who want to dive in deep both physically and
+                spiritually. Olivia's presence, confidence and intention in her movements also
+                makes a huge difference! I highly recommend!"
+              </p>
+              <footer class="testimonial-author">— Lindsey A.</footer>
+            </blockquote>
+
+          </div>
+        </div>
+        <button class="carousel-btn carousel-next" id="carouselNext" aria-label="Next">&#8250;</button>
+      </div>
+      <div class="carousel-dots" id="testimonialDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== CREDENTIALS ===== -->
+  <section id="credentials">
+    <div class="credentials-inner">
+      <div class="credentials-header">
+        <p class="section-label">Training &amp; Background</p>
+        <h2 class="section-title">A decade of study,<br /><em>across traditions</em></h2>
+      </div>
+
+      <div class="credentials-grid">
+
+        <div class="credentials-col">
+          <h3 class="credentials-col-title">Professional &amp; Clinical</h3>
+          <ul class="credentials-list">
+            <li>Licensed Massage Therapist — State of Hawai'i &amp; Colorado</li>
+            <li>Pre-licensed Psychotherapist — Clinical Internship in progress</li>
+            <li>Master's — Mindfulness-Based Transpersonal Counseling <em>(in progress)</em></li>
+            <li>Master's — Contemplative Religious Studies, Naropa University</li>
+          </ul>
+        </div>
+
+        <div class="credentials-col">
+          <h3 class="credentials-col-title">Somatic &amp; Integrative</h3>
+          <ul class="credentials-list">
+            <li>Ashiatsu DeepFeet Bar Therapy — Level I <em>(2024)</em></li>
+            <li>Reiki Level I &amp; II Certification <em>(2023)</em></li>
+            <li>Sacred Temple Lomi Lomi Training <em>(2021)</em></li>
+            <li>Kailua Style Lomi Lomi Training <em>(2022)</em></li>
+            <li>Mindful Compassion Certification <em>(2019)</em></li>
+            <li>Healing Spirits Shiatsu Training <em>(2018)</em></li>
+            <li>TMC Thai Reflexology &amp; Foot Massage Certification <em>(2017)</em></li>
+            <li>Byron Thai Massage — Levels I, II &amp; III <em>(2015)</em></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INVESTMENT ===== -->
+  <section id="investment">
+    <div class="investment-inner investment-centered">
+      <div class="investment-content">
+        <h2 class="section-title">Investment</h2>
+        <p class="investment-body">
+          I structure sessions to allow enough time for the nervous system to settle into
+          deeper states of rest and therapeutic unwinding.
+        </p>
+        <p class="investment-body">
+          Most clients find 90 minutes is where the work truly opens up. For those who want
+          to go deeper, longer sessions are available — up to 2.5 hours for established
+          clients.
+        </p>
+        <p class="investment-note">
+          Session rates and availability can be found on the booking page.
+        </p>
+        <!-- SQUARE BOOKING BUTTON — replace href when Square link is ready -->
+        <a href="https://app.squareup.com/appointments/book/q0tqmeufc4ex4p/LV346SKV7CH1C/start" target="_blank" rel="noopener noreferrer" class="btn-primary" style="margin-top:36px;">View Rates &amp; Book</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOK ===== -->
+  <section id="book">
+    <div class="book-inner">
+      <p class="section-label">Ready to Begin</p>
+      <h2 class="section-title">You are<br /><em>welcome here</em></h2>
+
+      <div class="sacred-divider" style="justify-content: center;">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+          <circle cx="9" cy="9" r="8" stroke="rgba(196,162,106,0.7)" stroke-width="0.8"/>
+          <circle cx="9" cy="9" r="4" stroke="rgba(196,162,106,0.7)" stroke-width="0.8"/>
+          <circle cx="9" cy="9" r="1.2" fill="rgba(196,162,106,0.8)"/>
+        </svg>
+      </div>
+
+      <!-- ===== SQUARE BOOKING EMBED — paste embed code here when ready ===== -->
+      <!--
+        EXAMPLE (replace with your actual Square embed snippet):
+        <div id="square-booking-embed"></div>
+        <script src="https://square.site/appointments/buyer/widget/YOUR-ID/en-US.js"></script>
+      -->
+
+      <p class="book-body">
+        Whether you are navigating stress, life transitions, or seeking deeper
+        therapeutic somatic care — you are welcome here.
+      </p>
+      <p class="book-body">I look forward to working together.</p>
+      <!-- SQUARE BOOKING BUTTON — replace href when Square link is ready -->
+      <a href="https://app.squareup.com/appointments/book/q0tqmeufc4ex4p/LV346SKV7CH1C/start" target="_blank" rel="noopener noreferrer" class="btn-primary" id="bookBtn">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p class="footer-logo">Body Soul Sessions</p>
+    <p class="footer-location">Boulder, Colorado &nbsp;·&nbsp; Olivia Sophie</p>
+    <ul class="footer-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#book">Schedule</a></li>
+    </ul>
+    <p class="footer-copy">© 2026 Body Soul Sessions · Olivia Sophie · Boulder, CO · All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
